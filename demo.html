@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style type="text/css">
+        body,
+        div,
+        dl,
+        dt,
+        dd,
+        ul,
+        ol,
+        li,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        th,
+        td,
+        form,
+        textarea,
+        input,
+        select,
+        textarea,
+        button {
+            margin:0;padding:0;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: normal;
+        }
+        body {
+            font: 12px/1.5 "microsoft yahei",arial;
+            background-color: #fff;
+        }
+        a {
+            text-decoration:none
+        }
+        i {
+            font-style: normal;
+        }
+        a:active, a:hover {
+            text-decoration:none;
+        }
+        img{
+            vertical-align:top;
+            border: 0;
+        }
+        dl,ul,ol,li {
+            list-style:none
+        }
+        /*下面是移动端默认样式*/
+        input,
+        button{
+            border-radius: 0;
+            outline: none;
+            /*-webkit-appearance:none;*/
+        }
+        input,
+        button,
+        a{
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        }
+        /* 去掉链接点击的时候 默认的半透明背景 */
+        .swiper-container {
+            width: 100%;
+            height: 270px;
+        }
+        .swiper-container .swiper-slide {
+            width: 100%;
+            height: 270px;
+        }
+        .swiper-wrapper img {
+            width: 100%;
+            height: 270px;
+        }
+        body,html {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        #box {
+            width: 100%;
+            position: absolute;
+        }
+        #wrap {
+            height: 100%;
+            width: 100%;
+        }
+        #loding {
+            margin-top: -100px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="wrap">
+    <div id="box">
+        <div id="loding" style=" width: 100%; height: 100px; background-color: yellow"></div>
+        <div class="divs" style="width: 100%; height: 400px; background-color: blue;" ></div>
+        <div class="divs" style="width: 100%; height: 400px; background-color: red;" ></div>
+        <div class="divs" style="width: 100%; height: 400px; background-color: blue;" ></div>
+        <div class="divs" style="width: 100%; height: 400px; background-color: red;" ></div>
+        <div class="divs" style="width: 100%; height: 400px; background-color: blue;" ></div>
+        <div class="divs" style="width: 100%; height: 400px; background-color: red;" ></div>
+        <div class="divs" style="width: 100%; height: 400px; background-color: blue;" ></div>
+        <div class="divs" style="width: 100%; height: 400px; background-color: red;" ></div>
+        <div class="divs" style="width: 100%; height: 400px; background-color: blue;" ></div>
+    </div>
+</div>
+<script src="./jsNative.js"></script>
+<script>
+    $('#wrap').mScroll({});
+</script>
+</body>
+</html>
